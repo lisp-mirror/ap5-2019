@@ -1,0 +1,26 @@
+http://www.ap5.com/
+
+AP5 is a specification language in that it enables a programmer to specify programs at a level more abstract than with standard programming languages. The AP5 compiler converts the programmer's spec into LISP code, alleviating the programmer from the need to make many data structuring and coding decisions.
+
+AP5 was designed and implemented by Don Cohen, inspired by the AP3 language of Neil Goldman. Don and Neil have worked together to meld AP5 into what it is today, supported by a cast of AP5 users and developers . Work on AP5 continues and descendants of AP5 have been developed, in the guise of extensions to C++, Ada, and a new version of AP5, known as rellisp.
+
+We will  present AP5 via an  example application, which we  specify in
+English as follows. We want a system  which keeps a data base of books
+and  other reference  items  in  a library,  keeps  track  of who  has
+borrowed  or   reserved  different   reference  items,   and  performs
+miscellaneous  bookkeeping functions  for a  librarian. Let  us assume
+that we have entities of type Reference, Person, and "primitive" types
+String and  Integer. Reference items  will have any number  of authors
+and a title. A  reference item may be borrowed by  zero or one person,
+and be reserved  by any number of  people. We want to be  able to know
+who reserved an item first, when more than one person has done so.
+
+http://oceanpark.com/ap5.html
+
+
+unofficial asdf wrapper for AP5 2013: https://github.com/LinkFly/ap5
+
+
+The AP5  source is believed  to be in the  public domain by  virtue of
+having been available via public ftp without a copyright notice before
+March 1 1989.
